@@ -1,0 +1,628 @@
+{
+  "source_base_path": "/home/runner/work/aplib.net-research/aplib.net-research",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "CONTRIBUTING.md",
+      "output": {
+        ".html": {
+          "relative_path": "CONTRIBUTING.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aplib.Core.Agents.BdiAgent-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aplib.Core.Agents.BdiAgent-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aplib.Core.Agents.IAgent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aplib.Core.Agents.IAgent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aplib.Core.Agents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aplib.Core.Agents.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aplib.Core.Belief.BeliefSets.BeliefSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aplib.Core.Belief.BeliefSets.BeliefSet.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aplib.Core.Belief.BeliefSets.IBeliefSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aplib.Core.Belief.BeliefSets.IBeliefSet.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aplib.Core.Belief.BeliefSets.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aplib.Core.Belief.BeliefSets.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aplib.Core.Belief.Beliefs.Belief-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aplib.Core.Belief.Beliefs.Belief-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aplib.Core.Belief.Beliefs.IBelief.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aplib.Core.Belief.Beliefs.IBelief.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aplib.Core.Belief.Beliefs.ListBelief-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aplib.Core.Belief.Beliefs.ListBelief-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aplib.Core.Belief.Beliefs.MemoryBelief-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aplib.Core.Belief.Beliefs.MemoryBelief-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aplib.Core.Belief.Beliefs.SampledMemoryBelief-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aplib.Core.Belief.Beliefs.SampledMemoryBelief-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aplib.Core.Belief.Beliefs.UpdateMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aplib.Core.Belief.Beliefs.UpdateMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aplib.Core.Belief.Beliefs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aplib.Core.Belief.Beliefs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aplib.Core.Collections.CircularArray-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aplib.Core.Collections.CircularArray-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aplib.Core.Collections.ExposedQueue-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aplib.Core.Collections.ExposedQueue-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aplib.Core.Collections.OptimizedActivationStack-1.StackItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aplib.Core.Collections.OptimizedActivationStack-1.StackItem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aplib.Core.Collections.OptimizedActivationStack-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aplib.Core.Collections.OptimizedActivationStack-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aplib.Core.Collections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aplib.Core.Collections.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aplib.Core.Combinators.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aplib.Core.Combinators.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aplib.Core.CompletionStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aplib.Core.CompletionStatus.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aplib.Core.Desire.DesireSets.DesireSet-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aplib.Core.Desire.DesireSets.DesireSet-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aplib.Core.Desire.DesireSets.IDesireSet-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aplib.Core.Desire.DesireSets.IDesireSet-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aplib.Core.Desire.DesireSets.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aplib.Core.Desire.DesireSets.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aplib.Core.Desire.GoalStructures.FirstOfGoalStructure-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aplib.Core.Desire.GoalStructures.FirstOfGoalStructure-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aplib.Core.Desire.GoalStructures.GoalStructure-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aplib.Core.Desire.GoalStructures.GoalStructure-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aplib.Core.Desire.GoalStructures.IGoalStructure-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aplib.Core.Desire.GoalStructures.IGoalStructure-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aplib.Core.Desire.GoalStructures.PrimitiveGoalStructure-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aplib.Core.Desire.GoalStructures.PrimitiveGoalStructure-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aplib.Core.Desire.GoalStructures.RepeatGoalStructure-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aplib.Core.Desire.GoalStructures.RepeatGoalStructure-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aplib.Core.Desire.GoalStructures.SequentialGoalStructure-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aplib.Core.Desire.GoalStructures.SequentialGoalStructure-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aplib.Core.Desire.GoalStructures.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aplib.Core.Desire.GoalStructures.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aplib.Core.Desire.Goals.Goal-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aplib.Core.Desire.Goals.Goal-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aplib.Core.Desire.Goals.IGoal-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aplib.Core.Desire.Goals.IGoal-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aplib.Core.Desire.Goals.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aplib.Core.Desire.Goals.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aplib.Core.ICompletable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aplib.Core.ICompletable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aplib.Core.IDocumented.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aplib.Core.IDocumented.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aplib.Core.IMetadata.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aplib.Core.IMetadata.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aplib.Core.Intent.Actions.Action-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aplib.Core.Intent.Actions.Action-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aplib.Core.Intent.Actions.IAction-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aplib.Core.Intent.Actions.IAction-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aplib.Core.Intent.Actions.IQueryable-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aplib.Core.Intent.Actions.IQueryable-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aplib.Core.Intent.Actions.QueryAction-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aplib.Core.Intent.Actions.QueryAction-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aplib.Core.Intent.Actions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aplib.Core.Intent.Actions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aplib.Core.Intent.Tactics.FirstOfTactic-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aplib.Core.Intent.Tactics.FirstOfTactic-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aplib.Core.Intent.Tactics.ITactic-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aplib.Core.Intent.Tactics.ITactic-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aplib.Core.Intent.Tactics.PrimitiveTactic-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aplib.Core.Intent.Tactics.PrimitiveTactic-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aplib.Core.Intent.Tactics.RandomTactic-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aplib.Core.Intent.Tactics.RandomTactic-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aplib.Core.Intent.Tactics.Tactic-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aplib.Core.Intent.Tactics.Tactic-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aplib.Core.Intent.Tactics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aplib.Core.Intent.Tactics.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aplib.Core.LiftingExtensionMethods.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aplib.Core.LiftingExtensionMethods.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aplib.Core.Logging.ILoggable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aplib.Core.Logging.ILoggable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aplib.Core.Logging.LogNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aplib.Core.Logging.LogNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aplib.Core.Logging.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aplib.Core.Logging.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aplib.Core.Metadata.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aplib.Core.Metadata.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Aplib.Core.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Aplib.Core.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "api/toc.json"
+        },
+        ".html": {
+          "relative_path": "api/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "docs/toc.json"
+        },
+        ".html": {
+          "relative_path": "docs/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "toc.json"
+        },
+        ".html": {
+          "relative_path": "toc.html"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

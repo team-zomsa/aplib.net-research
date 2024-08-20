@@ -1,0 +1,193 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Contributing | Aplib.Net </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Contributing | Aplib.Net ">
+      
+      
+      <link rel="icon" href="favicon.ico">
+      <link rel="stylesheet" href="public/docfx.min.css">
+      <link rel="stylesheet" href="public/main.css">
+      <meta name="docfx:navrel" content="toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/team-zomsa/aplib.net-research/blob/main/CONTRIBUTING.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="index.html">
+            <img id="logo" class="svg" src="logo.svg" alt="Aplib.Net">
+            Aplib.Net
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+
+      <div class="content">
+        <div class="actionbar">
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="contributing">Contributing</h1>
+
+<p>Thank you for your interest in contributing to this project. In order to contribute to this project, we ask you to read this document to get acquainted with our style.</p>
+<h2 id="formats">Formats</h2>
+<p><strong>Class names</strong></p>
+<ul>
+<li>Class name same as file name</li>
+</ul>
+<h1 id="modifiers-naming-conventions--member-order">Modifiers, naming conventions &amp; member order</h1>
+<h2 id="access-modifiers">Access modifiers.</h2>
+<p>Access modifiers in order of priority when combining them (<a href="https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/code-style-rule-options?view=vs-2017">Microsoft C# Docs: Code-style rule options</a>):</p>
+<pre><code class="lang-csharp">public
+private
+protected
+internal
+file
+static
+extern
+new
+virtual
+abstract
+sealed
+override
+readonly
+unsafe
+required
+volatile
+async
+</code></pre>
+<p><strong>Examples:</strong></p>
+<pre><code class="lang-csharp">private static readonly bool s_foo;
+protected new virtual int bar;
+public abstract class Baz { ... };
+</code></pre>
+<h2 id="identifier-names">Identifier names.</h2>
+<p>Naming conventions for identifiers (<a href="https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/identifier-names">Microsoft C# Docs: Identifier names</a>, <a href="https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/protected">Microsoft C# Docs: protected</a>):</p>
+<pre><code class="lang-csharp">namespace PascalCase { ... } // -------------- // Namespaces.
+&lt;TPascalCase&gt; // ----------------------------- // Generic types. Prefix T.
+interface IPascalCase { ... } // ------------- // Interfaces. Prefix I.
+class PascalCase { ... } // ------------------ // Classes.
+class PascalCaseAttribute : Attribute { ... }  // Attributes. Suffix Attribute.
+... PascalCase( ... camelCase ) { ... } // --- // Methods and method arguments.
+... PascalCase { get; set; } // -------------- // Properties.
+const PascalCase; // ------------------------- // Constants.
+... camelCase; // ---------------------------- // Local variables.
+public static PascalCase; // ----------------- // Public static fields. Prefix s_.
+internal static _camelCase; // --------------- // Internal static fields. Prefix s_.
+protected static _camelCase; // -------------- // Protected static fields. Prefix s_.
+private static _camelCase; // ---------------- // Private static fields. Prefix s_.
+public PascalCase; // ------------------------ // Public nonstatic fields.
+internal _camelCase: // ---------------------- // Internal nonstatic fields. Prefix _.
+protected _camelCase; // --------------------- // Protected nonstatic fields. Prefix _.
+private _camelCase; // ----------------------- // Private nonstatic fields. Prefix _.
+</code></pre>
+<p><strong>Additional naming conventions:</strong></p>
+<ul>
+<li>Use meaningful and descriptive names for variables, methods, and classes.</li>
+<li>Prefer clarity over brevity.</li>
+<li>Enum types use a singular noun for nonflags, and a plural noun for flags.</li>
+<li>Identifiers shouldn't contain two consecutive underscore (_) characters. Those names are reserved for compiler-generated identifiers.</li>
+<li>Avoid using abbreviations or acronyms in names, except for widely known and accepted abbreviations.</li>
+<li>Use meaningful and descriptive namespaces that follow the reverse domain name notation.</li>
+<li>Choose assembly names that represent the primary purpose of the assembly.</li>
+<li>Avoid using single-letter names, except for simple loop counters.</li>
+<li>Treat an acronym or abbreviation of three letters or more as a single word for capitalization. For example, <code>IterateBdiCycle</code> instead of <code>IterateBDICycle</code>.</li>
+</ul>
+<h2 id="order-of-members">Order of members.</h2>
+<p>The ordering of class members is as follows (combination of <a href="https://google.github.io/styleguide/csharp-style.html">C# at Google Style Guide</a> and <a href="https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1201.md">StyleCop</a>).</p>
+<p><strong>Within a class, struct, or interface:</strong></p>
+<ul>
+<li>Nested classes, enums, delegates and events.</li>
+<li>Static, const and readonly fields.</li>
+<li>Fields and properties.</li>
+<li>Constructors and finalizers.</li>
+<li>Methods.</li>
+</ul>
+<p><strong>Within each group, elements should be in the following order:</strong></p>
+<ul>
+<li>Public.</li>
+<li>Internal.</li>
+<li>Protected internal.</li>
+<li>Protected.</li>
+<li>Private.</li>
+<li>Where possible, group interface implementations together.</li>
+</ul>
+<p><strong>Within each of the access groups, order by static, then nonstatic:</strong></p>
+<ul>
+<li>Static</li>
+<li>Nonstatic</li>
+</ul>
+<p><strong>Within each of the static/nonstatic groups of fields, order by readonly, then nonreadonly:</strong></p>
+<ul>
+<li>Readonly</li>
+<li>Nonreadonly</li>
+</ul>
+<p>Within each group: Order on Name.</p>
+
+</article>
+
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
