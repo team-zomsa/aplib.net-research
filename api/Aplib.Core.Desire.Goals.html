@@ -95,10 +95,21 @@
 Classes
 </h3>
     <dl class="jumplist">
+      <dt><a class="xref" href="Aplib.Core.Desire.Goals.CommonHeuristicFunctions-1.html">CommonHeuristicFunctions&lt;TBeliefSet&gt;</a></dt>
+      <dd><p>Contains helper methods to generate commonly used heuristic functions.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
       <dt><a class="xref" href="Aplib.Core.Desire.Goals.Goal-1.html">Goal&lt;TBeliefSet&gt;</a></dt>
       <dd><p>A goal effectively combines a heuristic function with a tactic, and aims to meet the heuristic function by
 applying the tactic. Goals are combined in a <a class="xref" href="Aplib.Core.Desire.GoalStructures.GoalStructure-1.html">GoalStructure&lt;TBeliefSet&gt;</a>, and are used to
 prepare tests or do the testing.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Aplib.Core.Desire.Goals.Heuristics.html">Heuristics</a></dt>
+      <dd><p>Contains all information on how close the associated state is to its goal.
+Can be used to optimise search algorithms.</p>
 </dd>
     </dl>
     <h3 id="interfaces">
@@ -107,6 +118,15 @@ Interfaces
     <dl class="jumplist">
       <dt><a class="xref" href="Aplib.Core.Desire.Goals.IGoal-1.html">IGoal&lt;TBeliefSet&gt;</a></dt>
       <dd><p>Defines a goal that can be achieved by a <a class="xref" href="Aplib.Core.Intent.Tactics.Tactic-1.html">Tactic&lt;TBeliefSet&gt;</a>.</p>
+</dd>
+    </dl>
+    <h3 id="delegates">
+Delegates
+</h3>
+    <dl class="jumplist">
+      <dt><a class="xref" href="Aplib.Core.Desire.Goals.Goal-1.HeuristicFunction.html">Goal&lt;TBeliefSet&gt;.HeuristicFunction</a></dt>
+      <dd><p>The abstract definition of what is means to test the Goal's heuristic function. Returns <a class="xref" href="Aplib.Core.Desire.Goals.Heuristics.html">Heuristics</a>, as
+they represent how close we are to matching the heuristic function, and if the goal is completed.</p>
 </dd>
     </dl>
 
