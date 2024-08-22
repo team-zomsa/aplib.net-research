@@ -2,6 +2,8 @@
 
 ---
 
+Disclaimer: These shields link back to the main aplib.net repository and are not necessary for the research/this research repository.
+
 [![NuGet Version](https://img.shields.io/nuget/v/Aplib.Core)](https://www.nuget.org/packages/Aplib.Core/)
 [![GitHub Release](https://img.shields.io/github/v/release/team-zomsa/aplib.net?label=GitHub%20Release)
 ](https://github.com/team-zomsa/aplib.net/releases)
@@ -34,32 +36,32 @@ Game developers — indie and non-indie — rely on manual playtesting to identi
 
 ### Installation
 Aplib is available as a NuGet package, and as a simple DLL file that can then be added as a reference.
-Both can be found on our [GitHub Releases](https://github.com/team-zomsa/aplib.net/releases) page. If you're using Unity, you can install aplib as a Unity Package. The Unity Package and detailed installation instructions can be found [here](https://github.com/team-zomsa/Aplib-Unity-Package).
+Both can be found on our [GitHub Releases]() (Not available/necessary on the research repository) page. If you're using Unity, you can install aplib as a Unity Package. The Unity Package and detailed installation instructions can be found [here](https://github.com/team-zomsa/Aplib-Unity-Package).
 
 > [!TIP]
 > An easier way of installing is also provided using the NuGet Gallery at NuGet.org, which can be found [here](https://www.nuget.org/packages/Aplib.Core/).
 
 ### Quickstart Guide
-Check out our [Quickstart Guide](https://github.com/team-zomsa/aplib.net/wiki/Quick-Start-Guide) for using aplib in your Unity project!
+Check out our [Quickstart Guide](https://github.com/team-zomsa/aplib.net-research/wiki/) for using aplib in your Unity project!
 
 > [!TIP]
 > Our Quickstart Guide for using aplib in Unity is also useful for learning aplib in general!
 
 > [!TIP]
-> You can see aplib in action in our demo project. You can find the demo project in [this repository](https://github.com/team-zomsa/aplib.net-demo).
+> You can see aplib in action in our demo project. You can find the demo project in [this repository]() (Not available/necessary in the research (repository)).
 
-## These might be useful...
-
-> [!NOTE]
-> **_Documentation_** is automatically generated using DocFX and can be found [here](https://team-zomsa.github.io/aplib.net/).
+## Documentation, Guidelines and Metrics
 
 > [!NOTE]
-> This project is open source! The **_contribution guidelines_** can be found [here](https://github.com/team-zomsa/aplib.net/blob/main/CONTRIBUTING.md).
+> **_Documentation_** is automatically generated using DocFX and can be found [here](https://team-zomsa.github.io/aplib.net-research/).
+
+> [!NOTE]
+> This project is open source! The **_contribution guidelines_** can be found [here]() (Not relevant for this research repository, if you are interested though, check out the main aplib.net repository after the research :wink:).
 
 > [!TIP]
-> We provide **_code analysis metrics_** using SonarCloud, which can be found [here](https://sonarcloud.io/dashboard?id=team-zomsa_aplib.net).
+> We provide **_code analysis metrics_** using SonarCloud, which can be found [here](https://sonarcloud.io/dashboard?id=team-zomsa_aplib.net) (Note: these are from the main aplib.net repository).
 > It provides information on metrics such as code coverage, code smells, and technical debt.
 
 ## Licensing
 > [!WARNING]
-> The project is provided under the **_BSD 3 License_**, which can be found [here](https://github.com/team-zomsa/aplib.net/blob/main/LICENSE).
+> The project is provided under the **_BSD 3 License_**, which can be found [here](https://github.com/team-zomsa/aplib.net-research/blob/main/LICENSE) (Note: if you would like to do anything with this project, please go to the main aplib.net repository).

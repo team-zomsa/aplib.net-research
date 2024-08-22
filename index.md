@@ -4,7 +4,7 @@ _layout: landing
 
 # Aplib.Net
 
-Refer to the [GitHub Wiki](https://github.com/team-zomsa/aplib.net/wiki) and its [Quick Start Guide](https://github.com/team-zomsa/aplib.net/wiki/Quick-Start-Guide) to get started using Aplib.Net.
+Refer to the [GitHub Wiki](https://github.com/team-zomsa/aplib.net-research/wiki) to get started using aplib.net.
 
 
-To view the Aplib.Net API documentation, go to the `API` page in the header or click [here](/aplib.net/api/Aplib.Core.html).
+To view the aplib.net API documentation, go to the `API` page in the header or click [here](/aplib.net-research/api/Aplib.Core.html).
