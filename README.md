@@ -26,7 +26,7 @@ Aplib is a C# library that allows you to create automated playtests for your gam
 Aplib offers a robust framework for programming automated playtesting agents, based on the ***Belief-Desire-Intention (BDI)*** model. Don't worry about the jargon; it's easier than it sounds!
 
 > [!TIP]  
-> We offer additional support for Unity! Check out [our Unity Package](https://github.com/team-zomsa/Aplib-Unity-Package)!
+> We offer additional support for Unity! Check out [our Unity Package](https://github.com/team-zomsa/Aplib-Unity-Package-Research)!
 
 ## Why should *you* automate your playtests?
 
@@ -36,7 +36,7 @@ Game developers — indie and non-indie — rely on manual playtesting to identi
 
 ### Installation
 Aplib is available as a NuGet package, and as a simple DLL file that can then be added as a reference.
-Both can be found on our [GitHub Releases]() (Not available/necessary on the research repository) page. If you're using Unity, you can install aplib as a Unity Package. The Unity Package and detailed installation instructions can be found [here](https://github.com/team-zomsa/Aplib-Unity-Package).
+Both can be found on our [GitHub Releases]() (Not available/necessary on the research repository) page. If you're using Unity, you can install aplib as a Unity Package. The Unity Package and detailed installation instructions can be found [here](https://github.com/team-zomsa/Aplib-Unity-Package-Research).
 
 > [!TIP]
 > An easier way of installing is also provided using the NuGet Gallery at NuGet.org, which can be found [here](https://www.nuget.org/packages/Aplib.Core/).
